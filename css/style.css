@@ -176,18 +176,14 @@ video {
 #intro {
   width: 100%;
   position: relative;
-  background-color:#25AFF3;
+  background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
-  height: 100vh;
 }
 
 #intro .intro-img {
-  width: 35%;
+  width: 50%;
   float: right;
-  position: absolute;
-  bottom: 0;
-  right:0;
 }
 
 #intro .intro-info {
@@ -203,14 +199,14 @@ video {
 }
 
 #intro .intro-info h3 {
-  color:#444;
+  color: #fff;
   margin-bottom: 40px;
-  font-size: 24px;
+  font-size: 48px;
 }
 
 #intro .intro-info h3 span {
-  color: #fff;
-  font-style: italic;
+
+  text-decoration: underline;
 }
 
 #intro .intro-info .btn-get-started,
