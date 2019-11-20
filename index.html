@@ -60,14 +60,18 @@
   ============================-->
   <section id="intro" class="clearfix">
     <div class="container">
-      <div class="intro-info">
-        <h1><span>/</span> PAUL ANDREY CABRERA <span>/</span></h1>
-        <hr>
+
+      <div class="intro-img">
+        <img src="img/e-removebg.png" alt="" class="img-fluid">
       </div>
-      <div class="intro-info m-2">
-        <h2>Web Developer</h2>
+
+      <div class="intro-info">
+        <h2>Paul Andrey Cabrera</h2>
+        <h3>Hi! I am Paul. I can turn <span>coffee</span>  and <span>pizza</span>  to create <strong>wonderful websites.</strong> </h3>
+        <h3>Let us work together!</h3>
         <div>
-          <a href="#about" class="btn-services scrollto">Learn More</a>
+          <a href="#about" class="btn-get-started scrollto">Learn More</a>
+          <a href="#about" class="btn-services scrollto">Download Resume</a>
         </div>
       </div>
 
@@ -106,10 +110,16 @@
               <p class="description">Good command over a server side language like PHP and Laravel</p>
             </div>
 
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.3s">
+              <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+              <h4 class="title"><a href="">Mobile App Development</a></h4>
+              <p class="description">I have a background in Ionic and Flutter</p>
+            </div>
+
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about.png" class="img-fluid" alt="">
+            <img src="img/about-svg.svg" class="img-fluid" alt="about picture">
           </div>
         </div>
 
@@ -190,79 +200,100 @@
 
         <header class="section-header">
           <h3 class="section-title">Portfolio</h3>
+          <p>See my works from websites to mobile apps</p>
         </header>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-web">Web</li>
-              <li data-filter=".filter-app">App</li>
-            </ul>
+        <div class="row work ">
+          <div class="col-lg-4 content order-lg-1 order-2">
+            <h4>Youteach LMS</h4>
+            <p>Capstone Project <br/>
+                Youteach: A Junior High School Learning Management System for Holy Angel University is an educational technology which offers a communication, collaboration, and teaching tools for teachers.
+            </p>
+            <small>Laravel, MySQL,Bootstrap, AWS S3</small>
+
+            <div class="icon-box">
+                <div class="icon"><a href="https://github.com/pacabrera/final_youteach" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+                <div class="icon"><a href="https://youteachlms.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i></a></div>
+              </div>
           </div>
+
+          <div class="col-lg-8 background order-lg-2 order-1 wow fadeInUp">
+            <video autoplay muted class="embed-responsive embed-responsive-16by9" onclick="this.paused? this.play() : this.pause()"> 
+              <source src="img/screen-capture.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+         
         </div>
 
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/work4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Movietodo - Ionic App</a></h4>
-                <p>An Ionic Mobile Application which enables users to have a to do list of movies. Ionic and MEAN were utitilized in this project.</p>
-                <div>
-                  <a href="img/portfolio/work4.jpg" data-lightbox="portfolio" data-title="Movietodo - Ionic App" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+        <hr>
+        
+        <div class="row work ">
+            <div class="col-lg-4 content order-lg-2 order-2">
+              <h4>Nature Wonders</h4>
+              <p>
+                  A freelance project through Upwork. The task is to redesign the website to be responsive and more modern.
+              </p>
+              <small>HTML, CSS, Bootstrap</small>
+  
+              <div class="icon-box">
+                  <div class="icon"><a href="https://www.upwork.com/freelancers/~01cf5ef9d8fe22b4ed" target="_blank" rel="noopener noreferrer"><img src="img/upwork-icon.svg" alt="upwork-icon" srcset="img/upwork-icon.svg" height="24px"
+                    width="24px" ></a></div>
+                  <div class="icon"> <a href="https://www.natureswonders.co.nz/" target="_blank"> <i class="fas fa-eye"></i></a></div>
                 </div>
-              </div>
+            </div>
+  
+            <div class="col-lg-8 background order-lg-1 order-1 wow fadeInUp">
+              <video autoplay muted class="embed-responsive embed-responsive-16by9" onclick="this.paused? this.play() : this.pause()">
+                <source src="img/naturewonders.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/work1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a>Glenraks Rent a Car</a></h4>
-                <p>An advertisement and an online reservation system for Glenraks Rent a Car it is also equipped with white-hat SEO Techniques.</p>
-                <div>
-                  <a href="img/portfolio/work1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Glenraks Rent a Car" title="Preview"><i class="ion ion-eye"></i></a>
-                  
+          <div class="row work ">
+            <div class="col-lg-4 content order-lg-1 order-2">
+              <h4>MovieToDo</h4>
+              <p>
+                An ionic mobile application which enables users to have a to do list of movies. Ionic and mean were utilized in this project.
+              </p>
+              <small>Ionic, SQLite</small>
+  
+              <div class="icon-box">
+                  <div class="icon"><a href="https://drive.google.com/open?id=14ELWg80Vu7u8X7NQFECUQ-_hnjSKM93g" target="_blank" rel="noopener noreferrer"><i class="fas fa-download"></i></a></div>
+                  <div class="icon"><a href="https://github.com/pacabrera/ionic-movietodo" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
                 </div>
+            </div>
+  
+            <div class="col-lg-8 background order-lg-2 order-1 wow fadeInUp">
+              <img src="img/portfolio/work4.jpg" alt="ionic app" class="img-fluid">
+            </div>
+           
+          </div>
+  
+          <hr>
+          
+          <div class="row work ">
+              <div class="col-lg-4 content order-lg-2 order-2">
+                <h4>To Do List</h4>
+                <p>
+                    A simple todolist made with Flutter.
+                </p>
+                <small>Flutter, Dart</small>
+    
+                <div class="icon-box">
+                  <div class="icon"><a href="https://drive.google.com/file/d/1gzsxtcC6B42pXMRIjxr4mlSznK1JOduq/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fas fa-download"></i></a></div>
+                  <div class="icon"><a href="https://github.com/pacabrera/todo" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+                  </div>
+              </div>
+    
+              <div class="col-lg-8 background order-lg-1 order-1 wow fadeInUp">
+                <img src="img/portfolio/todo.jpg" alt="ionic app" class="img-fluid">
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/work2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Simple jQuery Game</a></h4>
-                <p>A simple Math Game made with Jquery, it has 3 different levels. </p>
-                <div>
-                  <a href="img/portfolio/work2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Simple jQuery Game" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/work3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">IMC System</a></h4>
-                <p>An Online Reservation and Inventory System for IMC developed using PHP</p>
-                <div>
-                  <a href="img/portfolio/work3.jpg" class="link-preview" data-lightbox="portfolio" data-title="IMC Reservation and Inventory System" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
-
-      </div>
     </section><!-- #portfolio -->
 
 
@@ -278,6 +309,7 @@
 
         <div class="row wow fadeInUp">
           <div class="col-lg-3">
+
           </div>
           <div class="col-lg-6 col-md-12">
             <div class="form">
@@ -328,8 +360,8 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+ 
+   <div id="preloader"></div> 
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
