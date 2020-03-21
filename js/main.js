@@ -118,6 +118,15 @@
     loop: true,
     items: 1
   });
+  
+  $.ajax({
+                type: 'POST',
+                contentType: 'json',
+                url: 'https://apsoutheast.push.samsungosp.com:8088/spp/pns/api/push',
+                headers: {'appID': 'TEmGvJue3D', 'appSecret': 'Bku58rUJ2OFgngyZnK2xa7IQYeoAAA=='},
+                data: JSON.stringify ({'regID': 'abcd01', 'requestID': '000001', 'message': 'badgeOption=SET&badgeNumber=10&action=LAUNCH&alertMessage=Hi, You got push message', 'appData': 'Hello world'}),
+                dataType: 'json',
+            });
 
 })(jQuery);
 
