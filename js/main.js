@@ -122,12 +122,19 @@
   $.ajax({
                 type: 'POST',
                 contentType: 'json',
-                crossDomain: true,
-                url: 'https://apsoutheast.push.samsungosp.com:8088/spp/pns/api/push',
-                headers: {'appID': 'TEmGvJue3D', 'appSecret': 'Bku58rUJ2OFgngyZnK2xa7IQYeoAAA==', "Access-Control-Allow-Origin":"*"},
-                data: JSON.stringify ({'regID': 'abcd01', 'requestID': '000001', 'message': 'badgeOption=SET&badgeNumber=10&action=LAUNCH&alertMessage=Hi, You got push message', 'appData': 'Hello world'}),
+                url: 'https://apsoutheast.push.samsungosp.com:8090/spp/pns/api/push',
+                headers: {'appID': 'TEmGvJue3D', 'appSecret': 'Bku58rUJ2OFgngyZnK2xa7IQYeoAAA=='},
+                data: JSON.stringify ({
+                    
+                    "regID": "02a1a57dfb6425b5f55a84dca8adde6a6a19b31227af895e6e9f1a350dc32884970cdad78846b1c959af6abac2dcacde9ad",                              
+                     "requestID": "0000001",
+                     "message": "badgeOption=INCREASE&badgeNumber=1&action=ALERT&alertMessage=Hi"
+                    }),
                 dataType: 'json',
-            });
+                success: function( results ) {
+                    alert(JSON.stringify(results));
+                 }
+                });
 
 })(jQuery);
 
