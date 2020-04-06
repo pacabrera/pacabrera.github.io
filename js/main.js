@@ -122,11 +122,11 @@
   $.ajax({
                 type: 'POST',
                 contentType: 'json',
-                url: 'https://apsoutheast.push.samsungosp.com:8090/spp/pns/api/push',
+                url: 'https://apnortheast.push.samsungosp.com:8090/spp/pns/api/push',
                 headers: {'appID': 'TEmGvJue3D', 'appSecret': 'Bku58rUJ2OFgngyZnK2xa7IQYeoAAA=='},
                 data: JSON.stringify ({
                     
-                    "regID": "02a1a57dfb6425b5f55a84dca8adde6a6a19b31227af895e6e9f1a350dc32884970cdad78846b1c959af6abac2dcacde9ad",                              
+                    "regID": "04a17e64ec297dda98905f26aedef8eb048898ef97d5318b96a746144d7de4d811e44e80b8d714b40cc11b3e44c17e4952f6",                              
                      "requestID": "0000001",
                      "message": "badgeOption=INCREASE&badgeNumber=1&action=ALERT&alertMessage=Hi"
                     }),
