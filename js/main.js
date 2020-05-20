@@ -127,7 +127,7 @@
                 data: JSON.stringify ({
                     
                     "regID": "04a1e792cd33ded74ffbb02e8cc80ade60e298ef97d5318b96a746144d7de4d811e44e80b8d714b40cc11b3e44c17e4952f6",                              
-                     "requestID": "0000002",
+                     "requestID": "00000023",
                      "message": "badgeOption=INCREASE&badgeNumber=1&action=ALERT&alertMessage=Hi"
                     }),
                 dataType: 'json',
