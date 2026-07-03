@@ -1,4 +1,7 @@
-Personal Portfolio
+# paulcabrera.dev
+ 
+My personal portfolio site, front-end developer. Live at [pacabrera.github.io](https://pacabrera.github.io)
 
-- Bootstrap
-- Illustrations by https://undraw.co/illustrations
+## To do
+ 
+- [ ] Add projects section
